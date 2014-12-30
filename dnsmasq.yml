@@ -1,0 +1,7 @@
+---
+- name: Install and configure DNSMASQ
+  hosts: dnsmasq
+  sudo: yes
+  gather_facts: yes
+  roles:
+     - dnsmasq
